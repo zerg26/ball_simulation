@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\flac-subbuild\CMakeFiles\43e9bb31f0ab77eb8c975fa9ccbacc0c\flac-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\flac-subbuild\CMakeFiles\43e9bb31f0ab77eb8c975fa9ccbacc0c\flac-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\flac-subbuild\CMakeFiles\43e9bb31f0ab77eb8c975fa9ccbacc0c\flac-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\flac-subbuild\CMakeFiles\43e9bb31f0ab77eb8c975fa9ccbacc0c\flac-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\flac-subbuild\CMakeFiles\43e9bb31f0ab77eb8c975fa9ccbacc0c\flac-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\flac-subbuild\CMakeFiles\43e9bb31f0ab77eb8c975fa9ccbacc0c\flac-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\flac-subbuild\CMakeFiles\43e9bb31f0ab77eb8c975fa9ccbacc0c\flac-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\flac-subbuild\CMakeFiles\43e9bb31f0ab77eb8c975fa9ccbacc0c\flac-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\flac-subbuild\CMakeFiles\613cb15c15e3c8559d0442f7e1177b70\flac-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\flac-subbuild\CMakeFiles\12221110f2fe83babad84c5754948386\flac-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\flac-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\C\ball_simulation\build\_deps\flac-subbuild\CMakeFiles\flac-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6BA65BD8-F42D-3180-A7CC-663220A13AA4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

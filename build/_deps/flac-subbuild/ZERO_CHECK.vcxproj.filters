@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\flac-subbuild\CMakeFiles\12221110f2fe83babad84c5754948386\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6BA65BD8-F42D-3180-A7CC-663220A13AA4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

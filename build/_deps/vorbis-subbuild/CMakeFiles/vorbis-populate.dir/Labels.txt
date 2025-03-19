@@ -1,0 +1,14 @@
+# Target labels
+ vorbis-populate
+# Source files and their labels
+C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate
+C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/77003f724a239e8127664b6f23b8a68f/vorbis-populate.rule
+C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/9d2af0ace405a1606ccb83a4825327cc/vorbis-populate-complete.rule
+C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-build.rule
+C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-configure.rule
+C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-download.rule
+C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-install.rule
+C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-mkdir.rule
+C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-patch.rule
+C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-test.rule
+C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-update.rule

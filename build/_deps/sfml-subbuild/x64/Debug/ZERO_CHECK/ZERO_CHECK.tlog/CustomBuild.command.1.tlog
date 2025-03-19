@@ -1,0 +1,10 @@
+^C:\C\BALL_SIMULATION\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\84BE61A6BFD58E9BC0C8A95328FA7EA1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/C/ball_simulation/build/_deps/sfml-subbuild -BC:/C/ball_simulation/build/_deps/sfml-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/C/ball_simulation/build/_deps/sfml-subbuild/sfml-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

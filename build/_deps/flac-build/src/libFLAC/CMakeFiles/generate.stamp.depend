@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/C/ball_simulation/build/_deps/flac-src/cmake/CheckA64NEON.cmake
+C:/C/ball_simulation/build/_deps/flac-src/cmake/CheckCPUArch.cmake
+C:/C/ball_simulation/build/_deps/flac-src/src/libFLAC/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake

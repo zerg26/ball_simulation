@@ -1,0 +1,14 @@
+# Target labels
+ freetype-populate
+# Source files and their labels
+C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate
+C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/d4d9a30e2741f4a68290e28be6398378/freetype-populate.rule
+C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/941e8991d97c7e68927ada1e4657e58c/freetype-populate-complete.rule
+C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-build.rule
+C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-configure.rule
+C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-download.rule
+C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-install.rule
+C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-mkdir.rule
+C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-patch.rule
+C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-test.rule
+C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-update.rule

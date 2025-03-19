@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/ogg-subbuild/CMakeFiles/5ba56ae4862784f7a7fff11a15f23eb7/ogg-populate.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/ogg-subbuild/CMakeFiles/f2623a70c3b7b3df9ff8da97acbe1193/ogg-populate-complete.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/ogg-subbuild/CMakeFiles/6a633a14d09dc5bc65da1236ba8defbc/ogg-populate-build.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/ogg-subbuild/CMakeFiles/6a633a14d09dc5bc65da1236ba8defbc/ogg-populate-configure.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/ogg-subbuild/CMakeFiles/6a633a14d09dc5bc65da1236ba8defbc/ogg-populate-download.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/ogg-subbuild/CMakeFiles/6a633a14d09dc5bc65da1236ba8defbc/ogg-populate-install.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/ogg-subbuild/CMakeFiles/6a633a14d09dc5bc65da1236ba8defbc/ogg-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/ogg-subbuild/CMakeFiles/6a633a14d09dc5bc65da1236ba8defbc/ogg-populate-patch.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/ogg-subbuild/CMakeFiles/6a633a14d09dc5bc65da1236ba8defbc/ogg-populate-test.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/ogg-subbuild/CMakeFiles/6a633a14d09dc5bc65da1236ba8defbc/ogg-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ogg-populate"
+		],
+		"name" : "ogg-populate"
+	}
+}

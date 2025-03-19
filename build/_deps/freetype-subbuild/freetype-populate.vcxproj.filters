@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\freetype-subbuild\CMakeFiles\76e38865f1cc5d5c42650d587c7d3626\freetype-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\freetype-subbuild\CMakeFiles\76e38865f1cc5d5c42650d587c7d3626\freetype-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\freetype-subbuild\CMakeFiles\76e38865f1cc5d5c42650d587c7d3626\freetype-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\freetype-subbuild\CMakeFiles\76e38865f1cc5d5c42650d587c7d3626\freetype-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\freetype-subbuild\CMakeFiles\76e38865f1cc5d5c42650d587c7d3626\freetype-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\freetype-subbuild\CMakeFiles\76e38865f1cc5d5c42650d587c7d3626\freetype-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\freetype-subbuild\CMakeFiles\76e38865f1cc5d5c42650d587c7d3626\freetype-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\freetype-subbuild\CMakeFiles\76e38865f1cc5d5c42650d587c7d3626\freetype-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\freetype-subbuild\CMakeFiles\941e8991d97c7e68927ada1e4657e58c\freetype-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\freetype-subbuild\CMakeFiles\d4d9a30e2741f4a68290e28be6398378\freetype-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\freetype-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\C\ball_simulation\build\_deps\freetype-subbuild\CMakeFiles\freetype-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{52B47D86-1ECA-3716-B2AB-6436BADC5EBE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

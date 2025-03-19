@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\sfml-subbuild\CMakeFiles\f974a342c1249f094c7beac1256aadb0\sfml-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\sfml-subbuild\CMakeFiles\f974a342c1249f094c7beac1256aadb0\sfml-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\sfml-subbuild\CMakeFiles\f974a342c1249f094c7beac1256aadb0\sfml-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\sfml-subbuild\CMakeFiles\f974a342c1249f094c7beac1256aadb0\sfml-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\sfml-subbuild\CMakeFiles\f974a342c1249f094c7beac1256aadb0\sfml-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\sfml-subbuild\CMakeFiles\f974a342c1249f094c7beac1256aadb0\sfml-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\sfml-subbuild\CMakeFiles\f974a342c1249f094c7beac1256aadb0\sfml-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\sfml-subbuild\CMakeFiles\f974a342c1249f094c7beac1256aadb0\sfml-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\sfml-subbuild\CMakeFiles\1363f1685cec875dc4a06365c0fca00f\sfml-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\sfml-subbuild\CMakeFiles\84be61a6bfd58e9bc0c8a95328fa7ea1\sfml-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\sfml-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\C\ball_simulation\build\_deps\sfml-subbuild\CMakeFiles\sfml-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3A805907-D4E9-3F4A-846E-0AB2E2A56B19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

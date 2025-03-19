@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/C/ball_simulation/build/_deps/sfml-src/cmake/CompilerWarnings.cmake
+C:/C/ball_simulation/build/_deps/sfml-src/cmake/Macros.cmake
+C:/C/ball_simulation/build/_deps/sfml-src/src/SFML/CMakeLists.txt
+C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeParseArguments.cmake

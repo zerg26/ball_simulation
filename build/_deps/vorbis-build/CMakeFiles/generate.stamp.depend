@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+C:/C/ball_simulation/build/_deps/vorbis-src/CMakeLists.txt
+C:/C/ball_simulation/build/_deps/vorbis-src/vorbis.pc.in
+C:/C/ball_simulation/build/_deps/vorbis-src/vorbisenc.pc.in
+C:/C/ball_simulation/build/_deps/vorbis-src/vorbisfile.pc.in
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-4.0/Modules/GNUInstallDirs.cmake

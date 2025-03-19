@@ -1,0 +1,1430 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-6k0lcn"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-6k0lcn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-6k0lcn'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_b558d
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_b558d.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_b558d.dir\\ /FS -c "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b558d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b558d.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_b558d.exe /implib:cmTC_b558d.lib /pdb:cmTC_b558d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~2/MICROS~3/2019/BUILDT~1/VC/Tools/MSVC/1429~1.301/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~2/MICROS~3/2019/BUILDT~1/VC/Tools/MSVC/1429~1.301/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "cmake-build-debug-visual-studio/_deps/sfml-src/CMakeLists.txt:32 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/3.29.6/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "cmake-build-debug-visual-studio/_deps/sfml-src/CMakeLists.txt:32 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "cmake-build-debug-visual-studio/_deps/sfml-src/CMakeLists.txt:32 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-r9jxoe"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-r9jxoe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-r9jxoe'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_f212f
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_f212f.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_f212f.dir\\ /FS -c "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f212f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f212f.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_f212f.exe /implib:cmTC_f212f.lib /pdb:cmTC_f212f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "cmake-build-debug-visual-studio/_deps/sfml-src/CMakeLists.txt:32 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~2/MICROS~3/2019/BUILDT~1/VC/Tools/MSVC/1429~1.301/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "cmake-build-debug-visual-studio/_deps/sfml-src/CMakeLists.txt:32 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~2/MICROS~3/2019/BUILDT~1/VC/Tools/MSVC/1429~1.301/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30159.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "cmake-build-debug-visual-studio/_deps/sfml-src/src/SFML/System/CMakeLists.txt:69 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-uxsry3"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-uxsry3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-uxsry3'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_d8402
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_d8402.dir\\src.c.obj /FdCMakeFiles\\cmTC_d8402.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-uxsry3\\src.c
+        FAILED: CMakeFiles/cmTC_d8402.dir/src.c.obj 
+        C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_d8402.dir\\src.c.obj /FdCMakeFiles\\cmTC_d8402.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-uxsry3\\src.c
+        C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-uxsry3\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "cmake-build-debug-visual-studio/_deps/sfml-src/src/SFML/System/CMakeLists.txt:69 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-id77oi"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-id77oi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-id77oi'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_eeb1d
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_eeb1d.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_eeb1d.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-id77oi\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_eeb1d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_eeb1d.dir\\CheckFunctionExists.c.obj  /out:cmTC_eeb1d.exe /implib:cmTC_eeb1d.lib /pdb:cmTC_eeb1d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_eeb1d.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_eeb1d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_eeb1d.dir\\CheckFunctionExists.c.obj  /out:cmTC_eeb1d.exe /implib:cmTC_eeb1d.lib /pdb:cmTC_eeb1d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_eeb1d.dir\\CheckFunctionExists.c.obj /out:cmTC_eeb1d.exe /implib:cmTC_eeb1d.lib /pdb:cmTC_eeb1d.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_eeb1d.dir/intermediate.manifest CMakeFiles\\cmTC_eeb1d.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "cmake-build-debug-visual-studio/_deps/sfml-src/src/SFML/System/CMakeLists.txt:69 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-g4gklx"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-g4gklx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-g4gklx'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_07c8f
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_07c8f.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_07c8f.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-g4gklx\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_07c8f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_07c8f.dir\\CheckFunctionExists.c.obj  /out:cmTC_07c8f.exe /implib:cmTC_07c8f.lib /pdb:cmTC_07c8f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_07c8f.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_07c8f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_07c8f.dir\\CheckFunctionExists.c.obj  /out:cmTC_07c8f.exe /implib:cmTC_07c8f.lib /pdb:cmTC_07c8f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_07c8f.dir\\CheckFunctionExists.c.obj /out:cmTC_07c8f.exe /implib:cmTC_07c8f.lib /pdb:cmTC_07c8f.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_07c8f.dir/intermediate.manifest CMakeFiles\\cmTC_07c8f.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:57 (check_include_files)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-r4suhh"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-r4suhh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "INCLUDE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-r4suhh'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_b85d7
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_b85d7.dir\\INCLUDE_INTTYPES_H.c.obj /FdCMakeFiles\\cmTC_b85d7.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-r4suhh\\INCLUDE_INTTYPES_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_b85d7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_b85d7.dir\\INCLUDE_INTTYPES_H.c.obj  /out:cmTC_b85d7.exe /implib:cmTC_b85d7.lib /pdb:cmTC_b85d7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:58 (check_include_files)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-s32tdg"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-s32tdg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "INCLUDE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-s32tdg'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_f3b92
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_f3b92.dir\\INCLUDE_STDINT_H.c.obj /FdCMakeFiles\\cmTC_f3b92.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-s32tdg\\INCLUDE_STDINT_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_f3b92.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_f3b92.dir\\INCLUDE_STDINT_H.c.obj  /out:cmTC_f3b92.exe /implib:cmTC_f3b92.lib /pdb:cmTC_f3b92.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:59 (check_include_files)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-1fit4q"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-1fit4q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "INCLUDE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-1fit4q'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_87be4
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_87be4.dir\\INCLUDE_SYS_TYPES_H.c.obj /FdCMakeFiles\\cmTC_87be4.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-1fit4q\\INCLUDE_SYS_TYPES_H.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_87be4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_87be4.dir\\INCLUDE_SYS_TYPES_H.c.obj  /out:cmTC_87be4.exe /implib:cmTC_87be4.lib /pdb:cmTC_87be4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-3xzglp"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-3xzglp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-3xzglp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_1d31a
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_1d31a.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_1d31a.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-3xzglp\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1d31a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1d31a.dir\\CheckIncludeFile.c.obj  /out:cmTC_1d31a.exe /implib:cmTC_1d31a.lib /pdb:cmTC_1d31a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-ebma5v"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-ebma5v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-ebma5v'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_d2b04
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_d2b04.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_d2b04.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-ebma5v\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d2b04.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d2b04.dir\\CheckIncludeFile.c.obj  /out:cmTC_d2b04.exe /implib:cmTC_d2b04.lib /pdb:cmTC_d2b04.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-83k46j"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-83k46j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-83k46j'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_a5ce5
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_a5ce5.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_a5ce5.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-83k46j\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a5ce5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a5ce5.dir\\CheckIncludeFile.c.obj  /out:cmTC_a5ce5.exe /implib:cmTC_a5ce5.lib /pdb:cmTC_a5ce5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of int16_t"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-4qb77h"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-4qb77h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT16_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-4qb77h'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_2dc7f
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_2dc7f.dir\\INT16_SIZE.c.obj /FdCMakeFiles\\cmTC_2dc7f.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-4qb77h\\INT16_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_2dc7f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2dc7f.dir\\INT16_SIZE.c.obj  /out:cmTC_2dc7f.exe /implib:cmTC_2dc7f.lib /pdb:cmTC_2dc7f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/cmake/CheckSizes.cmake:4 (check_type_size)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of uint16_t"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-46diuu"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-46diuu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_UINT16_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-46diuu'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_4e8c3
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_4e8c3.dir\\UINT16_SIZE.c.obj /FdCMakeFiles\\cmTC_4e8c3.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-46diuu\\UINT16_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4e8c3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4e8c3.dir\\UINT16_SIZE.c.obj  /out:cmTC_4e8c3.exe /implib:cmTC_4e8c3.lib /pdb:cmTC_4e8c3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/cmake/CheckSizes.cmake:5 (check_type_size)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of u_int16_t"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-4kq5gy"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-4kq5gy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_U_INT16_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-4kq5gy'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_a001a
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_a001a.dir\\U_INT16_SIZE.c.obj /FdCMakeFiles\\cmTC_a001a.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-4kq5gy\\U_INT16_SIZE.c
+        FAILED: CMakeFiles/cmTC_a001a.dir/U_INT16_SIZE.c.obj 
+        C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_a001a.dir\\U_INT16_SIZE.c.obj /FdCMakeFiles\\cmTC_a001a.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-4kq5gy\\U_INT16_SIZE.c
+        C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-4kq5gy\\U_INT16_SIZE.c(29): error C2065: 'u_int16_t': undeclared identifier
+        C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-4kq5gy\\U_INT16_SIZE.c(30): error C2065: 'u_int16_t': undeclared identifier
+        C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-4kq5gy\\U_INT16_SIZE.c(31): error C2065: 'u_int16_t': undeclared identifier
+        C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-4kq5gy\\U_INT16_SIZE.c(32): error C2065: 'u_int16_t': undeclared identifier
+        C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-4kq5gy\\U_INT16_SIZE.c(33): error C2065: 'u_int16_t': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/cmake/CheckSizes.cmake:6 (check_type_size)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of int32_t"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-uawo7o"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-uawo7o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT32_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-uawo7o'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_796b6
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_796b6.dir\\INT32_SIZE.c.obj /FdCMakeFiles\\cmTC_796b6.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-uawo7o\\INT32_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_796b6.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_796b6.dir\\INT32_SIZE.c.obj  /out:cmTC_796b6.exe /implib:cmTC_796b6.lib /pdb:cmTC_796b6.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/cmake/CheckSizes.cmake:7 (check_type_size)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of uint32_t"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-nscntq"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-nscntq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_UINT32_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-nscntq'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_93f27
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_93f27.dir\\UINT32_SIZE.c.obj /FdCMakeFiles\\cmTC_93f27.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-nscntq\\UINT32_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_93f27.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_93f27.dir\\UINT32_SIZE.c.obj  /out:cmTC_93f27.exe /implib:cmTC_93f27.lib /pdb:cmTC_93f27.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/cmake/CheckSizes.cmake:8 (check_type_size)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of u_int32_t"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-jygc0z"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-jygc0z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_U_INT32_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-jygc0z'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_9cf54
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_9cf54.dir\\U_INT32_SIZE.c.obj /FdCMakeFiles\\cmTC_9cf54.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-jygc0z\\U_INT32_SIZE.c
+        FAILED: CMakeFiles/cmTC_9cf54.dir/U_INT32_SIZE.c.obj 
+        C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_9cf54.dir\\U_INT32_SIZE.c.obj /FdCMakeFiles\\cmTC_9cf54.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-jygc0z\\U_INT32_SIZE.c
+        C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-jygc0z\\U_INT32_SIZE.c(29): error C2065: 'u_int32_t': undeclared identifier
+        C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-jygc0z\\U_INT32_SIZE.c(30): error C2065: 'u_int32_t': undeclared identifier
+        C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-jygc0z\\U_INT32_SIZE.c(31): error C2065: 'u_int32_t': undeclared identifier
+        C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-jygc0z\\U_INT32_SIZE.c(32): error C2065: 'u_int32_t': undeclared identifier
+        C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-jygc0z\\U_INT32_SIZE.c(33): error C2065: 'u_int32_t': undeclared identifier
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/cmake/CheckSizes.cmake:9 (check_type_size)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of int64_t"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-30hx6t"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-30hx6t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT64_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-30hx6t'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_d7f2a
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_d7f2a.dir\\INT64_SIZE.c.obj /FdCMakeFiles\\cmTC_d7f2a.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-30hx6t\\INT64_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d7f2a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d7f2a.dir\\INT64_SIZE.c.obj  /out:cmTC_d7f2a.exe /implib:cmTC_d7f2a.lib /pdb:cmTC_d7f2a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/cmake/CheckSizes.cmake:10 (check_type_size)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-p4sh8b"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-p4sh8b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_SHORT_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-p4sh8b'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_04358
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_04358.dir\\SHORT_SIZE.c.obj /FdCMakeFiles\\cmTC_04358.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-p4sh8b\\SHORT_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_04358.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_04358.dir\\SHORT_SIZE.c.obj  /out:cmTC_04358.exe /implib:cmTC_04358.lib /pdb:cmTC_04358.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/cmake/CheckSizes.cmake:11 (check_type_size)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-6cb1pf"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-6cb1pf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INT_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-6cb1pf'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_5f136
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_5f136.dir\\INT_SIZE.c.obj /FdCMakeFiles\\cmTC_5f136.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-6cb1pf\\INT_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5f136.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5f136.dir\\INT_SIZE.c.obj  /out:cmTC_5f136.exe /implib:cmTC_5f136.lib /pdb:cmTC_5f136.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/cmake/CheckSizes.cmake:12 (check_type_size)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-gfyhqf"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-gfyhqf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LONG_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-gfyhqf'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_5334a
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_5334a.dir\\LONG_SIZE.c.obj /FdCMakeFiles\\cmTC_5334a.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-gfyhqf\\LONG_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5334a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5334a.dir\\LONG_SIZE.c.obj  /out:cmTC_5334a.exe /implib:cmTC_5334a.lib /pdb:cmTC_5334a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/cmake/CheckSizes.cmake:13 (check_type_size)"
+      - "cmake-build-debug-visual-studio/_deps/ogg-src/CMakeLists.txt:69 (include)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-n3zlmp"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-n3zlmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/ogg-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LONG_LONG_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-n3zlmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_75e8e
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_75e8e.dir\\LONG_LONG_SIZE.c.obj /FdCMakeFiles\\cmTC_75e8e.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-n3zlmp\\LONG_LONG_SIZE.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_75e8e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_75e8e.dir\\LONG_LONG_SIZE.c.obj  /out:cmTC_75e8e.exe /implib:cmTC_75e8e.lib /pdb:cmTC_75e8e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/cmake/UseSystemExtensions.cmake:3 (check_c_source_compiles)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/CMakeLists.txt:107 (include)"
+    checks:
+      - "Performing Test HAVE_MBSTATE"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-makh5t"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-makh5t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_MBSTATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-makh5t'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_89f1b
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_MBSTATE  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_89f1b.dir\\src.c.obj /FdCMakeFiles\\cmTC_89f1b.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-makh5t\\src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_89f1b.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_89f1b.dir\\src.c.obj  /out:cmTC_89f1b.exe /implib:cmTC_89f1b.lib /pdb:cmTC_89f1b.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/cmake/UseSystemExtensions.cmake:16 (check_c_source_compiles)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/CMakeLists.txt:107 (include)"
+    checks:
+      - "Performing Test DODEFINE_EXTENSIONS"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-bva2ce"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-bva2ce"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "DODEFINE_EXTENSIONS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-bva2ce'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_a46af
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DDODEFINE_EXTENSIONS  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_a46af.dir\\src.c.obj /FdCMakeFiles\\cmTC_a46af.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-bva2ce\\src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a46af.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a46af.dir\\src.c.obj  /out:cmTC_a46af.exe /implib:cmTC_a46af.lib /pdb:cmTC_a46af.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/CMakeLists.txt:111 (check_include_file)"
+    checks:
+      - "Looking for byteswap.h"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-l3qcpj"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-l3qcpj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_BYTESWAP_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-l3qcpj'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_39af0
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_39af0.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_39af0.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-l3qcpj\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_39af0.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_39af0.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_39af0.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-l3qcpj\\CheckIncludeFile.c
+        C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-l3qcpj\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'byteswap.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/CMakeLists.txt:112 (check_include_file)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-xwjo4c"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-xwjo4c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-xwjo4c'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_fba6c
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_fba6c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_fba6c.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-xwjo4c\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_fba6c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_fba6c.dir\\CheckIncludeFile.c.obj  /out:cmTC_fba6c.exe /implib:cmTC_fba6c.lib /pdb:cmTC_fba6c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/CMakeLists.txt:114 (check_include_file)"
+    checks:
+      - "Looking for stdbool.h"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-r8rq06"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-r8rq06"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STDBOOL_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-r8rq06'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_8c928
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_8c928.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_8c928.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-r8rq06\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8c928.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8c928.dir\\CheckIncludeFile.c.obj  /out:cmTC_8c928.exe /implib:cmTC_8c928.lib /pdb:cmTC_8c928.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/CMakeLists.txt:115 (check_include_file)"
+    checks:
+      - "Looking for arm_neon.h"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-w3u1m3"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-w3u1m3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "FLAC__HAS_NEONINTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-w3u1m3'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_4ace6
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_4ace6.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_4ace6.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-w3u1m3\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_4ace6.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_4ace6.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_4ace6.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-w3u1m3\\CheckIncludeFile.c
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\include\\arm_neon.h(21): fatal error C1189: #error:  This header is specific to ARM targets
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/CMakeLists.txt:122 (check_include_file)"
+    checks:
+      - "Looking for intrin.h"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-bzvdd3"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-bzvdd3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "FLAC__HAS_X86INTRIN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-bzvdd3'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_83e5a
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_83e5a.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_83e5a.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-bzvdd3\\CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_83e5a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_83e5a.dir\\CheckIncludeFile.c.obj  /out:cmTC_83e5a.exe /implib:cmTC_83e5a.lib /pdb:cmTC_83e5a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/CMakeLists.txt:127 (check_function_exists)"
+    checks:
+      - "Looking for fseeko"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-tl1hu9"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-tl1hu9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_FSEEKO"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-tl1hu9'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_30d0d
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=fseeko /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_30d0d.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_30d0d.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-tl1hu9\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_30d0d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_30d0d.dir\\CheckFunctionExists.c.obj  /out:cmTC_30d0d.exe /implib:cmTC_30d0d.lib /pdb:cmTC_30d0d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_30d0d.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_30d0d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_30d0d.dir\\CheckFunctionExists.c.obj  /out:cmTC_30d0d.exe /implib:cmTC_30d0d.lib /pdb:cmTC_30d0d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_30d0d.dir\\CheckFunctionExists.c.obj /out:cmTC_30d0d.exe /implib:cmTC_30d0d.lib /pdb:cmTC_30d0d.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_30d0d.dir/intermediate.manifest CMakeFiles\\cmTC_30d0d.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol fseeko referenced in function main\x0d
+        cmTC_30d0d.exe : fatal error LNK1120: 1 unresolved externals\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/CMakeLists.txt:129 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BSWAP16"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-dguhnz"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-dguhnz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_BSWAP16"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-dguhnz'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_212f5
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_BSWAP16  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_212f5.dir\\src.c.obj /FdCMakeFiles\\cmTC_212f5.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-dguhnz\\src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_212f5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_212f5.dir\\src.c.obj  /out:cmTC_212f5.exe /implib:cmTC_212f5.lib /pdb:cmTC_212f5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_212f5.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_212f5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_212f5.dir\\src.c.obj  /out:cmTC_212f5.exe /implib:cmTC_212f5.lib /pdb:cmTC_212f5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_212f5.dir\\src.c.obj /out:cmTC_212f5.exe /implib:cmTC_212f5.lib /pdb:cmTC_212f5.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_212f5.dir/intermediate.manifest CMakeFiles\\cmTC_212f5.dir/manifest.res" failed (exit code 1120) with the following output:
+        src.c.obj : error LNK2019: unresolved external symbol __builtin_bswap16 referenced in function main\x0d
+        cmTC_212f5.exe : fatal error LNK1120: 1 unresolved externals\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/CMakeLists.txt:130 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BSWAP32"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-tleawd"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-tleawd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_BSWAP32"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-tleawd'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_a6f24
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_BSWAP32  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_a6f24.dir\\src.c.obj /FdCMakeFiles\\cmTC_a6f24.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-tleawd\\src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a6f24.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a6f24.dir\\src.c.obj  /out:cmTC_a6f24.exe /implib:cmTC_a6f24.lib /pdb:cmTC_a6f24.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_a6f24.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_a6f24.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a6f24.dir\\src.c.obj  /out:cmTC_a6f24.exe /implib:cmTC_a6f24.lib /pdb:cmTC_a6f24.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a6f24.dir\\src.c.obj /out:cmTC_a6f24.exe /implib:cmTC_a6f24.lib /pdb:cmTC_a6f24.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_a6f24.dir/intermediate.manifest CMakeFiles\\cmTC_a6f24.dir/manifest.res" failed (exit code 1120) with the following output:
+        src.c.obj : error LNK2019: unresolved external symbol __builtin_bswap32 referenced in function main\x0d
+        cmTC_a6f24.exe : fatal error LNK1120: 1 unresolved externals\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/CMakeLists.txt:131 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_LANGINFO_CODESET"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-9orwhd"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-9orwhd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LANGINFO_CODESET"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-9orwhd'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_7c792
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_LANGINFO_CODESET  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_7c792.dir\\src.c.obj /FdCMakeFiles\\cmTC_7c792.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-9orwhd\\src.c
+        FAILED: CMakeFiles/cmTC_7c792.dir/src.c.obj 
+        C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_LANGINFO_CODESET  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_7c792.dir\\src.c.obj /FdCMakeFiles\\cmTC_7c792.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-9orwhd\\src.c
+        C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-9orwhd\\src.c(2): fatal error C1083: Cannot open include file: 'langinfo.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/CMakeLists.txt:142 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WERROR_FLAG"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-5h5r6z"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-5h5r6z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_WERROR_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-5h5r6z'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_993c6
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_WERROR_FLAG  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi   -Werror /showIncludes /FoCMakeFiles\\cmTC_993c6.dir\\src.c.obj /FdCMakeFiles\\cmTC_993c6.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-5h5r6z\\src.c
+        FAILED: CMakeFiles/cmTC_993c6.dir/src.c.obj 
+        C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_WERROR_FLAG  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi   -Werror /showIncludes /FoCMakeFiles\\cmTC_993c6.dir\\src.c.obj /FdCMakeFiles\\cmTC_993c6.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-5h5r6z\\src.c
+        cl : Command line error D8021 : invalid numeric argument '/Werror'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/CMakeLists.txt:143 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_DECL_AFTER_STMT_FLAG"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-rhn433"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-rhn433"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_DECL_AFTER_STMT_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-rhn433'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_9bee9
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_DECL_AFTER_STMT_FLAG  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi   -Wdeclaration-after-statement /showIncludes /FoCMakeFiles\\cmTC_9bee9.dir\\src.c.obj /FdCMakeFiles\\cmTC_9bee9.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-rhn433\\src.c
+        FAILED: CMakeFiles/cmTC_9bee9.dir/src.c.obj 
+        C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_DECL_AFTER_STMT_FLAG  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi   -Wdeclaration-after-statement /showIncludes /FoCMakeFiles\\cmTC_9bee9.dir\\src.c.obj /FdCMakeFiles\\cmTC_9bee9.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-rhn433\\src.c
+        cl : Command line error D8021 : invalid numeric argument '/Wdeclaration-after-statement'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/CMakeLists.txt:144 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_STACKREALIGN_FLAG"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-yxwzvq"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-yxwzvq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_STACKREALIGN_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-yxwzvq'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_4f2c3
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_STACKREALIGN_FLAG  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi   -mstackrealign /showIncludes /FoCMakeFiles\\cmTC_4f2c3.dir\\src.c.obj /FdCMakeFiles\\cmTC_4f2c3.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-yxwzvq\\src.c
+        cl : Command line warning D9002 : ignoring unknown option '-mstackrealign'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4f2c3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4f2c3.dir\\src.c.obj  /out:cmTC_4f2c3.exe /implib:cmTC_4f2c3.lib /pdb:cmTC_4f2c3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/CMakeLists.txt:145 (check_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_WEFFCXX_FLAG"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-s83l85"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-s83l85"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_WEFFCXX_FLAG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-s83l85'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_7ae22
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_WEFFCXX_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -MDd -Zi   -Weffc++ /showIncludes /FoCMakeFiles\\cmTC_7ae22.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_7ae22.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-s83l85\\src.cxx
+        FAILED: CMakeFiles/cmTC_7ae22.dir/src.cxx.obj 
+        C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_WEFFCXX_FLAG  /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -MDd -Zi   -Weffc++ /showIncludes /FoCMakeFiles\\cmTC_7ae22.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_7ae22.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-s83l85\\src.cxx
+        cl : Command line error D8021 : invalid numeric argument '/Weffc++'
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/src/libFLAC/CMakeLists.txt:3 (check_include_file)"
+    checks:
+      - "Looking for cpuid.h"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-jthyv3"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-jthyv3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_CPUID_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-jthyv3'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_57731
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_57731.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_57731.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-jthyv3\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_57731.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_57731.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_57731.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-jthyv3\\CheckIncludeFile.c
+        C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-jthyv3\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'cpuid.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/src/libFLAC/CMakeLists.txt:4 (check_include_file)"
+    checks:
+      - "Looking for sys/param.h"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-jk19zy"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-jk19zy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_SYS_PARAM_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-jk19zy'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_0ca85
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_0ca85.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_0ca85.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-jk19zy\\CheckIncludeFile.c
+        FAILED: CMakeFiles/cmTC_0ca85.dir/CheckIncludeFile.c.obj 
+        C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_0ca85.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_0ca85.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-jk19zy\\CheckIncludeFile.c
+        C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-jk19zy\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/param.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/src/libFLAC/CMakeLists.txt:7 (check_function_exists)"
+    checks:
+      - "Looking for lround"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-h2bwb8"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-h2bwb8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LROUND"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-h2bwb8'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_1806d
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=lround /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_1806d.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_1806d.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-h2bwb8\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1806d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1806d.dir\\CheckFunctionExists.c.obj  /out:cmTC_1806d.exe /implib:cmTC_1806d.lib /pdb:cmTC_1806d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_1806d.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_1806d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1806d.dir\\CheckFunctionExists.c.obj  /out:cmTC_1806d.exe /implib:cmTC_1806d.lib /pdb:cmTC_1806d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1806d.dir\\CheckFunctionExists.c.obj /out:cmTC_1806d.exe /implib:cmTC_1806d.lib /pdb:cmTC_1806d.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_1806d.dir/intermediate.manifest CMakeFiles\\cmTC_1806d.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'm.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake-build-debug-visual-studio/_deps/flac-src/cmake/CheckCPUArch.cmake:6 (try_compile)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/cmake/CheckCPUArch.cmake:18 (_CHECK_CPU_ARCH)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/src/libFLAC/CMakeLists.txt:13 (check_cpu_arch_x64)"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-build/CMakeFiles/CMakeTmp"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_FLAC__CPU_X86_64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_c5608
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_c5608.dir\\CheckCPUArch.c.obj /FdCMakeFiles\\cmTC_c5608.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\_deps\\flac-build\\CMakeFiles\\CMakeTmp\\CheckCPUArch.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_c5608.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c5608.dir\\CheckCPUArch.c.obj  /out:cmTC_c5608.exe /implib:cmTC_c5608.lib /pdb:cmTC_c5608.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "cmake-build-debug-visual-studio/_deps/flac-src/src/libFLAC/CMakeLists.txt:101 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_ASSOC_MATH"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-tjxrph"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-tjxrph"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/flac-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_ASSOC_MATH"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-tjxrph'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_4b18d
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_ASSOC_MATH  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi   -fassociative-math -fno-signed-zeros -fno-trapping-math -freciprocal-math /showIncludes /FoCMakeFiles\\cmTC_4b18d.dir\\src.c.obj /FdCMakeFiles\\cmTC_4b18d.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-tjxrph\\src.c
+        cl : Command line warning D9002 : ignoring unknown option '-fassociative-math'
+        cl : Command line warning D9002 : ignoring unknown option '-fno-signed-zeros'
+        cl : Command line warning D9002 : ignoring unknown option '-fno-trapping-math'
+        cl : Command line warning D9002 : ignoring unknown option '-freciprocal-math'
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4b18d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4b18d.dir\\src.c.obj  /out:cmTC_4b18d.exe /implib:cmTC_4b18d.lib /pdb:cmTC_4b18d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_4b18d.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4b18d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4b18d.dir\\src.c.obj  /out:cmTC_4b18d.exe /implib:cmTC_4b18d.lib /pdb:cmTC_4b18d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4b18d.dir\\src.c.obj /out:cmTC_4b18d.exe /implib:cmTC_4b18d.lib /pdb:cmTC_4b18d.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_4b18d.dir/intermediate.manifest CMakeFiles\\cmTC_4b18d.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'm.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "cmake-build-debug-visual-studio/_deps/vorbis-src/CMakeLists.txt:62 (check_library_exists)"
+    checks:
+      - "Looking for floor in m"
+    directories:
+      source: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-kuuit8"
+      binary: "C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-kuuit8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/sfml-src/cmake/Modules/;C:/C/ball_simulation/cmake-build-debug-visual-studio/_deps/vorbis-src/cmake"
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.0"
+    buildResult:
+      variable: "HAVE_LIBM"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/C/ball_simulation/cmake-build-debug-visual-studio/CMakeFiles/CMakeScratch/TryCompile-kuuit8'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -v cmTC_4e558
+        [1/2] C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=floor /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_4e558.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_4e558.dir\\ /FS -c C:\\C\\ball_simulation\\cmake-build-debug-visual-studio\\CMakeFiles\\CMakeScratch\\TryCompile-kuuit8\\CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4e558.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4e558.dir\\CheckFunctionExists.c.obj  /out:cmTC_4e558.exe /implib:cmTC_4e558.lib /pdb:cmTC_4e558.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_4e558.exe 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2024.2.1\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_4e558.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4e558.dir\\CheckFunctionExists.c.obj  /out:cmTC_4e558.exe /implib:cmTC_4e558.lib /pdb:cmTC_4e558.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  m.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~2\\MICROS~3\\2019\\BUILDT~1\\VC\\Tools\\MSVC\\1429~1.301\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4e558.dir\\CheckFunctionExists.c.obj /out:cmTC_4e558.exe /implib:cmTC_4e558.lib /pdb:cmTC_4e558.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_4e558.dir/intermediate.manifest CMakeFiles\\cmTC_4e558.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'm.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

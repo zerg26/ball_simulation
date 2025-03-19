@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/C/ball_simulation/cmake-build-release-visual-studio/_deps/ogg-subbuild/CMakeFiles/ogg-populate"
+		},
+		{
+			"file" : "C:/C/ball_simulation/cmake-build-release-visual-studio/_deps/ogg-subbuild/CMakeFiles/ogg-populate.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/cmake-build-release-visual-studio/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/cmake-build-release-visual-studio/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/cmake-build-release-visual-studio/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/cmake-build-release-visual-studio/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/cmake-build-release-visual-studio/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/cmake-build-release-visual-studio/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/cmake-build-release-visual-studio/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/cmake-build-release-visual-studio/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/cmake-build-release-visual-studio/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ogg-populate"
+		],
+		"name" : "ogg-populate"
+	}
+}

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\C\ball_simulation\build\_deps\vorbis-subbuild\CMakeFiles\77003f724a239e8127664b6f23b8a68f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{57DC3835-047D-3763-89E2-C471186512D2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

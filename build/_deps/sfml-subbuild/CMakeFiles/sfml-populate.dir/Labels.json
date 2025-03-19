@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/sfml-subbuild/CMakeFiles/sfml-populate"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/sfml-subbuild/CMakeFiles/84be61a6bfd58e9bc0c8a95328fa7ea1/sfml-populate.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/sfml-subbuild/CMakeFiles/1363f1685cec875dc4a06365c0fca00f/sfml-populate-complete.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/sfml-subbuild/CMakeFiles/f974a342c1249f094c7beac1256aadb0/sfml-populate-build.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/sfml-subbuild/CMakeFiles/f974a342c1249f094c7beac1256aadb0/sfml-populate-configure.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/sfml-subbuild/CMakeFiles/f974a342c1249f094c7beac1256aadb0/sfml-populate-download.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/sfml-subbuild/CMakeFiles/f974a342c1249f094c7beac1256aadb0/sfml-populate-install.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/sfml-subbuild/CMakeFiles/f974a342c1249f094c7beac1256aadb0/sfml-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/sfml-subbuild/CMakeFiles/f974a342c1249f094c7beac1256aadb0/sfml-populate-patch.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/sfml-subbuild/CMakeFiles/f974a342c1249f094c7beac1256aadb0/sfml-populate-test.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/sfml-subbuild/CMakeFiles/f974a342c1249f094c7beac1256aadb0/sfml-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml-populate"
+		],
+		"name" : "sfml-populate"
+	}
+}

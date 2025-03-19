@@ -1,0 +1,150 @@
+^C:\C\BALL_SIMULATION\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\F974A342C1249F094C7BEAC1256AADB0\SFML-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/C/ball_simulation/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/C/ball_simulation/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\C\BALL_SIMULATION\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\F974A342C1249F094C7BEAC1256AADB0\SFML-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\C\ball_simulation\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/C/ball_simulation/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/C/ball_simulation/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\C\BALL_SIMULATION\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\F974A342C1249F094C7BEAC1256AADB0\SFML-POPULATE-UPDATE.RULE
+setlocal
+cd C:\C\ball_simulation\build\_deps\sfml-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/C/ball_simulation/build/_deps/sfml-subbuild/sfml-populate-prefix/tmp/sfml-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\C\BALL_SIMULATION\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\F974A342C1249F094C7BEAC1256AADB0\SFML-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/C/ball_simulation/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\C\BALL_SIMULATION\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\F974A342C1249F094C7BEAC1256AADB0\SFML-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\C\ball_simulation\build\_deps\sfml-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/C/ball_simulation/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\C\BALL_SIMULATION\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\F974A342C1249F094C7BEAC1256AADB0\SFML-POPULATE-BUILD.RULE
+setlocal
+cd C:\C\ball_simulation\build\_deps\sfml-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/C/ball_simulation/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\C\BALL_SIMULATION\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\F974A342C1249F094C7BEAC1256AADB0\SFML-POPULATE-INSTALL.RULE
+setlocal
+cd C:\C\ball_simulation\build\_deps\sfml-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/C/ball_simulation/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\C\BALL_SIMULATION\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\F974A342C1249F094C7BEAC1256AADB0\SFML-POPULATE-TEST.RULE
+setlocal
+cd C:\C\ball_simulation\build\_deps\sfml-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/C/ball_simulation/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\C\BALL_SIMULATION\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\1363F1685CEC875DC4A06365C0FCA00F\SFML-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/C/ball_simulation/build/_deps/sfml-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/C/ball_simulation/build/_deps/sfml-subbuild/CMakeFiles/Debug/sfml-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/C/ball_simulation/build/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/Debug/sfml-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\C\BALL_SIMULATION\BUILD\_DEPS\SFML-SUBBUILD\CMAKEFILES\84BE61A6BFD58E9BC0C8A95328FA7EA1\SFML-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\C\BALL_SIMULATION\BUILD\_DEPS\SFML-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/C/ball_simulation/build/_deps/sfml-subbuild -BC:/C/ball_simulation/build/_deps/sfml-subbuild --check-stamp-file C:/C/ball_simulation/build/_deps/sfml-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

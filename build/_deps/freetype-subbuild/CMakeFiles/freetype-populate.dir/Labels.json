@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/d4d9a30e2741f4a68290e28be6398378/freetype-populate.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/941e8991d97c7e68927ada1e4657e58c/freetype-populate-complete.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-build.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-configure.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-download.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-install.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-patch.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-test.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/freetype-subbuild/CMakeFiles/76e38865f1cc5d5c42650d587c7d3626/freetype-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"freetype-populate"
+		],
+		"name" : "freetype-populate"
+	}
+}

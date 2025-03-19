@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/flac-subbuild/CMakeFiles/flac-populate"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/flac-subbuild/CMakeFiles/12221110f2fe83babad84c5754948386/flac-populate.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/flac-subbuild/CMakeFiles/613cb15c15e3c8559d0442f7e1177b70/flac-populate-complete.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/flac-subbuild/CMakeFiles/43e9bb31f0ab77eb8c975fa9ccbacc0c/flac-populate-build.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/flac-subbuild/CMakeFiles/43e9bb31f0ab77eb8c975fa9ccbacc0c/flac-populate-configure.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/flac-subbuild/CMakeFiles/43e9bb31f0ab77eb8c975fa9ccbacc0c/flac-populate-download.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/flac-subbuild/CMakeFiles/43e9bb31f0ab77eb8c975fa9ccbacc0c/flac-populate-install.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/flac-subbuild/CMakeFiles/43e9bb31f0ab77eb8c975fa9ccbacc0c/flac-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/flac-subbuild/CMakeFiles/43e9bb31f0ab77eb8c975fa9ccbacc0c/flac-populate-patch.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/flac-subbuild/CMakeFiles/43e9bb31f0ab77eb8c975fa9ccbacc0c/flac-populate-test.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/flac-subbuild/CMakeFiles/43e9bb31f0ab77eb8c975fa9ccbacc0c/flac-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"flac-populate"
+		],
+		"name" : "flac-populate"
+	}
+}

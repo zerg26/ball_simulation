@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/77003f724a239e8127664b6f23b8a68f/vorbis-populate.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/9d2af0ace405a1606ccb83a4825327cc/vorbis-populate-complete.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-build.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-configure.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-download.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-install.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-patch.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-test.rule"
+		},
+		{
+			"file" : "C:/C/ball_simulation/build/_deps/vorbis-subbuild/CMakeFiles/c632e342ce0887b61b2b3b1442c48fd9/vorbis-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vorbis-populate"
+		],
+		"name" : "vorbis-populate"
+	}
+}

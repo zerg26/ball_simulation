@@ -1,0 +1,10 @@
+^C:\C\BALL_SIMULATION\BUILD\_DEPS\FLAC-SUBBUILD\CMAKEFILES\12221110F2FE83BABAD84C5754948386\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/C/ball_simulation/build/_deps/flac-subbuild -BC:/C/ball_simulation/build/_deps/flac-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/C/ball_simulation/build/_deps/flac-subbuild/flac-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

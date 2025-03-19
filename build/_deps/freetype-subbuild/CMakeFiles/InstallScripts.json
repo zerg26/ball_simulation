@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/C/ball_simulation/build/_deps/freetype-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
