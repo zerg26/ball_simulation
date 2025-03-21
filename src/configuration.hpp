@@ -2,7 +2,7 @@
 
 namespace conf {
 
-    int const radius = 100;
+    int const radius = 30;
     int const frames = 144;
     int const timer = 144;
     float const gravity = 9.8f;

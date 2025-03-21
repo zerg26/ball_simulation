@@ -10,7 +10,7 @@
 
 
 
-
+ball ball2;
 
 int main()
 {
@@ -60,14 +60,18 @@ int main()
 
         // creates ball when left-clicked
         if(sf::Mouse::isButtonPressed(sf::Mouse::Button::Left) && throwing) {
-            ball ball2;
             ball2.shape.setPosition(sf::Vector2f(mouse.x-conf::radius, mouse.y-conf::radius));
             ball2.shape.setFillColor(sf::Color(rand() % 255, rand() % 255, rand() % 255));
             int xrandom = -10 + std::rand() % (21);
             int yrandom = -10 + std::rand() % (21);
             ball2.position = sf::Vector2f(xrandom, yrandom);
-            circles.push_back(ball2);
+
             throwing = false;
+        } else if(sf::Mouse::isButtonPressed(sf::Mouse::Button::Left) && !throwing) {
+            ball2.shape.sf::CircleShape::setRadius(ball2.shape.sf::CircleShape::getRadius() + 10.0f);
+        } else {
+            circles.push_back(ball2);
+            ball2.shape.sf::CircleShape::setRadius(conf::radius);
         }
 
 
@@ -76,8 +80,8 @@ int main()
         for(auto& c : circles) {
             sf::Vector2f position = c.shape.getPosition();
             // if the ball moves outside of window stops it
-            if(position.y >= 0 && position.y + conf::radius*2 < window.getSize().y) {
-                if(position.x >= 0 && position.x + conf::radius*2 < window.getSize().x ) {
+            if(position.y >= 0 && position.y + conf::radius*2 <= window.getSize().y) {
+                if(position.x >= 0 && position.x + conf::radius*2 <= window.getSize().x ) {
 
                 } else {
                     c.position = sf::Vector2f(-c.position.x, c.position.y);
@@ -90,6 +94,7 @@ int main()
             window.draw(c.shape);
         }
         window.draw(ball3);
+        window.draw(ball2.shape);
         window.display();
     }
 }
