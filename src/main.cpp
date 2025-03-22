@@ -60,7 +60,6 @@ int main()
 
         // creates ball when left-clicked
         if(sf::Mouse::isButtonPressed(sf::Mouse::Button::Left) && throwing) {
-            ball2.shape.setPosition(sf::Vector2f(mouse.x-conf::radius, mouse.y-conf::radius));
             ball2.shape.setFillColor(sf::Color(rand() % 255, rand() % 255, rand() % 255));
             int xrandom = -10 + std::rand() % (21);
             int yrandom = -10 + std::rand() % (21);
@@ -68,10 +67,14 @@ int main()
 
             throwing = false;
         } else if(sf::Mouse::isButtonPressed(sf::Mouse::Button::Left) && !throwing) {
-            ball2.shape.sf::CircleShape::setRadius(ball2.shape.sf::CircleShape::getRadius() + 10.0f);
+            //grows the ball and keeps it on mouse
+            ball2.shape.sf::CircleShape::setRadius(ball2.shape.sf::CircleShape::getRadius() + conf::radiusGrowth);
+            ball2.shape.setPosition(sf::Vector2f(mouse.x-ball2.shape.sf::CircleShape::getRadius(), mouse.y-ball2.shape.sf::CircleShape::getRadius()));
         } else {
+            //
             circles.push_back(ball2);
-            ball2.shape.sf::CircleShape::setRadius(conf::radius);
+            ball2.shape.sf::CircleShape::setRadius(0);
+            ball2.position = sf::Vector2f(0,0);
         }
 
 
