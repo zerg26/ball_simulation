@@ -12,6 +12,7 @@
 
 ball ball2;
 
+
 int main()
 {
     auto window = sf::RenderWindow(sf::VideoMode({2560u, 1440u}), "CMake SFML Project", sf::State::Fullscreen);
@@ -60,21 +61,25 @@ int main()
 
         // creates ball when left-clicked
         if(sf::Mouse::isButtonPressed(sf::Mouse::Button::Left) && throwing) {
-            ball2.shape.setFillColor(sf::Color(rand() % 255, rand() % 255, rand() % 255));
             int xrandom = -10 + std::rand() % (21);
             int yrandom = -10 + std::rand() % (21);
             ball2.position = sf::Vector2f(xrandom, yrandom);
-
+            ball2.shape.setFillColor(sf::Color(rand() % 255, rand() % 255, rand() % 255));
             throwing = false;
         } else if(sf::Mouse::isButtonPressed(sf::Mouse::Button::Left) && !throwing) {
             //grows the ball and keeps it on mouse
             ball2.shape.sf::CircleShape::setRadius(ball2.shape.sf::CircleShape::getRadius() + conf::radiusGrowth);
             ball2.shape.setPosition(sf::Vector2f(mouse.x-ball2.shape.sf::CircleShape::getRadius(), mouse.y-ball2.shape.sf::CircleShape::getRadius()));
+
+
         } else {
-            //
-            circles.push_back(ball2);
+            // prevents empty ball getting added to circles every cycle
+            if(ball2.shape.getRadius() > .005) {
+                circles.push_back(ball2);
+            }
             ball2.shape.sf::CircleShape::setRadius(0);
             ball2.position = sf::Vector2f(0,0);
+
         }
 
 
@@ -83,8 +88,8 @@ int main()
         for(auto& c : circles) {
             sf::Vector2f position = c.shape.getPosition();
             // if the ball moves outside of window stops it
-            if(position.y >= 0 && position.y + conf::radius*2 <= window.getSize().y) {
-                if(position.x >= 0 && position.x + conf::radius*2 <= window.getSize().x ) {
+            if(position.y >= 0 && position.y + c.shape.sf::CircleShape::getRadius()*2 <= window.getSize().y) {
+                if(position.x >= 0 && position.x + c.shape.sf::CircleShape::getRadius()*2 <= window.getSize().x ) {
 
                 } else {
                     c.position = sf::Vector2f(-c.position.x, c.position.y);
