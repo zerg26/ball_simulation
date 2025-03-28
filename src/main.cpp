@@ -85,21 +85,37 @@ int main()
 
 
         //gets and sets location of ball
-        for(auto& c : circles) {
-            sf::Vector2f position = c.shape.getPosition();
+        for(int i = 0; i < circles.size(); i++) {
+            sf::Vector2f position = circles[i].shape.getPosition();
+            float circlePositionI = circles[i].shape.sf::CircleShape::getRadius();
+
+            for(int j = 0; j < circles.size(); j++) {
+                sf::Vector2f position2 = circles[j].shape.getPosition();
+                float circlePositionJ = circles[j].shape.sf::CircleShape::getRadius();
+
+                if(position == position2) {
+                    //does nothing
+                } else if(pow((circlePositionI-circlePositionJ), 2) >= pow((position.x-position2.x), 2) + pow((position.y-position2.y), 2)) {
+                    //checks if they hit
+                    circles[i].position = sf::Vector2f(-circles[i].position.x, circles[i].position.y);
+                    
+
+                }
+            }
+
             // if the ball moves outside of window stops it
-            if(position.y >= 0 && position.y + c.shape.sf::CircleShape::getRadius()*2 <= window.getSize().y) {
-                if(position.x >= 0 && position.x + c.shape.sf::CircleShape::getRadius()*2 <= window.getSize().x ) {
+            if(position.y >= 0 && position.y + circlePositionI*2 <= window.getSize().y) {
+                if(position.x >= 0 && position.x + circlePositionI*2 <= window.getSize().x ) {
 
                 } else {
-                    c.position = sf::Vector2f(-c.position.x, c.position.y);
+                    circles[i].position = sf::Vector2f(-circles[i].position.x, circles[i].position.y);
                 }
             } else {
-                c.position = sf::Vector2f(c.position.x, -c.position.y);
+                circles[i].position = sf::Vector2f(circles[i].position.x, -circles[i].position.y);
             }
-            c.shape.setPosition(c.position + position);
+            circles[i].shape.setPosition(circles[i].position + position);
 
-            window.draw(c.shape);
+            window.draw(circles[i].shape);
         }
         window.draw(ball3);
         window.draw(ball2.shape);
