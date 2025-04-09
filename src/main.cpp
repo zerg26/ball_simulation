@@ -5,7 +5,7 @@
 #include <SFML/Graphics/RenderWindow.hpp>
 #include "configuration.hpp"
 #include "ball.hpp"
-
+#include <math.h>
 
 
 
@@ -36,6 +36,9 @@ int main()
             } else if(event->is<sf::Event::KeyPressed>()) {
                 if(sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Escape)) {
                     window.close();
+                }
+                if(sf::Keyboard::isKeyPressed(sf::Keyboard::Key::R)) {
+                    circles.clear();
                 }
             // checks to see if the button clicked and released was the left mouse.
             } else if(event->is<sf::Event::MouseButtonReleased>()) {
@@ -97,8 +100,16 @@ int main()
                     //does nothing
                 } else if(pow((circlePositionI-circlePositionJ), 2) >= pow((position.x-position2.x), 2) + pow((position.y-position2.y), 2)) {
                     //checks if they hit
-                    circles[i].position = sf::Vector2f(-circles[i].position.x, circles[i].position.y);
-                    
+                    // if(position.x > position2.x && position.y > position2.y) {
+                    //     int yLength = position.y - position2.y;
+                    //     // if position is ylength that means position is higher
+                    //     int xLength = position.x - position2.x;
+                    //     // if position is xlength that means position is to the right
+                    //     sf::Vector2f position3 = sf::Vector2f(xLength, yLength);
+                    //     float angle = atan2(position2.y - position2.x, position2.x - position2.y);
+                    // circles[i].shape.setPosition(sf::Vector2f(circles[i].position-position));
+                    // circles[i].position = sf::Vector2f(-circles[i].position.x, -circles[i].position.y);
+
 
                 }
             }
