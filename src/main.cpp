@@ -96,9 +96,9 @@ int main()
                 sf::Vector2f position2 = circles[j].shape.getPosition();
                 float circlePositionJ = circles[j].shape.sf::CircleShape::getRadius();
 
-                if(position == position2) {
+                if(i==j) {
                     //does nothing
-                } else if(pow((circlePositionI-circlePositionJ), 2) >= pow((position.x-position2.x), 2) + pow((position.y-position2.y), 2)) {
+                } else if(pow((circlePositionI+circlePositionJ), 2) >= pow((position.x-position2.x), 2) + pow((position.y-position2.y), 2)) {
                     //checks if they hit
                     // if(position.x > position2.x && position.y > position2.y) {
                     //     int yLength = position.y - position2.y;
@@ -108,8 +108,8 @@ int main()
                     //     sf::Vector2f position3 = sf::Vector2f(xLength, yLength);
                     //     float angle = atan2(position2.y - position2.x, position2.x - position2.y);
                     // circles[i].shape.setPosition(sf::Vector2f(circles[i].position-position));
-                    // circles[i].position = sf::Vector2f(-circles[i].position.x, -circles[i].position.y);
-
+                    circles[i].position = sf::Vector2f(-circles[i].position.x, -circles[i].position.y);
+                    // circles[i].shape.setPosition(circles[i].position + position);
 
                 }
             }
