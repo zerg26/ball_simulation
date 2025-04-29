@@ -1,1 +1,1 @@
-This can be used and modified to your liking 
+This can be used for anything 
